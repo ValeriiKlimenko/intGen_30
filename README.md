@@ -33,6 +33,7 @@ Options:
 --channel is channel name "KLambda" or "KSigma" or "Pi0P" or "Pi0P_2g" or "PiN" ("KLambda" is default value)
 
 Pi0P - EG will generate e,p,pi0
+
 Pi0P_2g is Pi0P with pi0 decay, EG will generate e,p,g,g
 
 --lambda1520=yes It works only for "KLambda" channel. It sets Lambda mass = 1518.8 MeV (default masss is 1115.683 MeV)

@@ -33,6 +33,7 @@ Options:
 --channel is channel name "KLambda" or "KSigma" or "Pi0P" or "Pi0P_2g" or "PiN" ("KLambda" is default value!)
 
 KLambda default is 1115.683 MeV, you can set lambda(1520) by using --lambda1520=yes
+
 Pi0P - EG will generate e,p,pi0
 Pi0P_2g is Pi0P with pi0 decay, EG will generate e,p,g,g
 

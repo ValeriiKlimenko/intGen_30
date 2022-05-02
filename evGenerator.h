@@ -44,7 +44,7 @@ public:
 
 evGenerator(string dataPath, string t, double E, 
             double q2min, double q2max,
-	    double wmin,  double wmax, unsigned long long rand_start,
+	    double wmin,  double wmax, unsigned long long rand_start, bool isL1520,
 		//double cosmin,  double cosmax,//only for test
 	    double jr=-1, double mr=0, double gr=0, 
             double a12=0., double a32=0., double s12=0., 
@@ -66,8 +66,9 @@ evGenerator(string dataPath, string t, double E,
     int channel=0;//1-KL 2-KS 3-PiOP 4-PiN
 
 	if(type == "KLambda"){ 
-		m1 = massKaon; 
-    		m2 = massLambda;
+		m1 = massKaon;
+		if (isL1520) m2 = massLambda1520;
+		else m2 = massLambda;
 		channel=1;
 	}else{
 		if(type == "KSigma"){ 

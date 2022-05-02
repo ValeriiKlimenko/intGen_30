@@ -32,14 +32,10 @@ Options:
 
 --channel is channel name "KLambda" or "KSigma" or "Pi0P" or "Pi0P_2g" or "PiN" ("KLambda" is default value)
 
-KLambda":
-Lambda default masss is 1115.683 MeV, you can set lambda(1520) by using --lambda1520=yes
-It works only for "KLambda" channel. It sets Lambda mass = 1518.8 MeV 
-
-
 Pi0P - EG will generate e,p,pi0
 Pi0P_2g is Pi0P with pi0 decay, EG will generate e,p,g,g
 
+--lambda1520=yes It works only for "KLambda" channel. It sets Lambda mass = 1518.8 MeV (default masss is 1115.683 MeV)
 
 --ebeam is Ebeam that should be >0 and less than 30GeV (Energy of the beam) (default value is 10.6 GeV)
 
